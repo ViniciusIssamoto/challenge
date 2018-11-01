@@ -1,0 +1,184 @@
+CTicks: 1: 
+CTicks: 2: 
+CTicks: 3: 
+CTicks: 4: 
+CTicks: 5: 
+CTicks: 6: 
+CTicks: 7: 
+CTicks: 8: 
+CTicks: 9: 
+CTicks: 10: 
+CTicks: 11: 
+CTicks: 12: 
+CTicks: 13: 1
+CTicks: 14: 1
+CTicks: 15: 1
+CTicks: 16: 2
+CTicks: 17: 2
+CTicks: 18: 2
+CTicks: 19: 2
+CTicks: 20: 2
+CTicks: 21: 2
+CTicks: 22: 2
+CTicks: 23: 1
+CTicks: 24: 2
+CTicks: 25: 2
+CTicks: 26: 3
+CTicks: 27: 3
+CTicks: 28: 4
+CTicks: 29: 5
+CTicks: 30: 5
+CTicks: 31: 3
+CTicks: 32: 4
+CTicks: 33: 4
+CTicks: 34: 4
+CTicks: 35: 5
+CTicks: 36: 7
+CTicks: 37: 7
+CTicks: 38: 6
+CTicks: 39: 5
+CTicks: 40: 4
+CTicks: 41: 2
+CTicks: 42: 4
+CTicks: 43: 4
+CTicks: 44: 4
+CTicks: 45: 10
+CTicks: 46: 10,2
+CTicks: 47: 7,4
+CTicks: 48: 10,7
+CTicks: 49: 9,9
+CTicks: 50: 4,10
+CTicks: 51: 5,8
+CTicks: 52: 8,6
+CTicks: 53: 7,6
+CTicks: 54: 9,4
+CTicks: 55: 9,5
+CTicks: 56: 9,5
+CTicks: 57: 7,10
+CTicks: 58: 5,7
+CTicks: 59: 6,7
+CTicks: 60: 8,5
+CTicks: 61: 9,5
+CTicks: 62: 10
+CTicks: 63: 10,8
+CTicks: 64: 10,9
+CTicks: 65: 10,10
+CTicks: 66: 8,10,6
+CTicks: 67: 8,10,6
+CTicks: 68: 7,5,9
+CTicks: 69: 8,4,9
+CTicks: 70: 9,3,9
+CTicks: 71: 10,9
+CTicks: 72: 8,10,3
+CTicks: 73: 8,7,6
+CTicks: 74: 10,9
+CTicks: 75: 6,10,6
+CTicks: 76: 10,9
+CTicks: 77: 7,9,7
+CTicks: 78: 6,9,9
+CTicks: 79: 8,10,10
+CTicks: 80: 10,10,5
+CTicks: 81: 9,10,8
+CTicks: 82: 10,10
+CTicks: 83: 10,6
+CTicks: 84: 8,4
+CTicks: 85: 6,8
+CTicks: 86: 7,9
+CTicks: 87: 9,10,2
+CTicks: 88: 10,8,6
+CTicks: 89: 10,8,9
+CTicks: 90: 8,6,9
+CTicks: 91: 6,7,9
+CTicks: 92: 7,9,8
+CTicks: 93: 9,10,4
+CTicks: 94: 10,8,7
+CTicks: 95: 10,8,10,7
+CTicks: 96: 10,10,10,7
+CTicks: 97: 10,10,10,4
+CTicks: 98: 10,10,10,8
+CTicks: 99: 10,10,10,4
+CTicks: 100: 10,8,8
+CTicks: 101: 8,9,7
+CTicks: 102: 10,10,7
+CTicks: 103: 10,10
+CTicks: 104: 10,10
+CTicks: 105: 10,10
+CTicks: 106: 8,8,8
+CTicks: 107: 10,8
+CTicks: 108: 9,10,4
+CTicks: 109: 7,10,6
+CTicks: 110: 10,10,7
+CTicks: 111: 10,9
+CTicks: 112: 10,10
+CTicks: 113: 10,5
+CTicks: 114: 10,8
+CTicks: 115: 10,4
+CTicks: 116: 10,7
+CTicks: 117: 7,8
+CTicks: 118: 9,9
+CTicks: 119: 10,8
+CTicks: 120: 6,10
+CTicks: 121: 7,10
+CTicks: 122: 9,10,2
+CTicks: 123: 10,8
+CTicks: 124: 10,5
+CTicks: 125: 10,6
+CTicks: 126: 10,9
+CTicks: 127: 8,7
+CTicks: 128: 10,6
+CTicks: 129: 9,6
+CTicks: 130: 7,7
+CTicks: 131: 10
+CTicks: 132: 9,3
+CTicks: 133: 8,5
+CTicks: 134: 8,5
+CTicks: 135: 8,5
+CTicks: 136: 6,5
+CTicks: 137: 9
+CTicks: 138: 7
+CTicks: 139: 6
+CTicks: 140: 6
+CTicks: 141: 6
+CTicks: 142: 6
+CTicks: 143: 5
+CTicks: 144: 4
+CTicks: 145: 3
+CTicks: 146: 4
+CTicks: 147: 4
+CTicks: 148: 4
+CTicks: 149: 4
+CTicks: 150: 4
+CTicks: 151: 3
+CTicks: 152: 3
+CTicks: 153: 3
+CTicks: 154: 5
+CTicks: 155: 5
+CTicks: 156: 4
+CTicks: 157: 4
+CTicks: 158: 5
+CTicks: 159: 3
+CTicks: 160: 2
+CTicks: 161: 4
+CTicks: 162: 3
+CTicks: 163: 3
+CTicks: 164: 3
+CTicks: 165: 3
+CTicks: 166: 1
+CTicks: 167: 1
+CTicks: 168: 
+CTicks: 169: 
+CTicks: 170: 
+CTicks: 171: 
+CTicks: 172: 
+CTicks: 173: 
+CTicks: 174: 
+CTicks: 175: 
+CTicks: 176: 
+CTicks: 177: 
+CTicks: 178: 
+CTicks: 179: 1
+CTicks: 180: 1
+CTicks: 181: 1
+CTicks: 182: 1
+CTicks: 183: 1
+CTicks: 184: 

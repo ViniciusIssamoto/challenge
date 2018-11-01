@@ -1,20 +1,39 @@
-import time
-from classes.server import Server
-from classes.user import User
 from classes.customer_management import CustomerManagement
-input = open('input1.txt')
-input_list = []
-for line_txt in input:
-    number_formated = int(line_txt.replace('\n', ''))
-    input_list.append(number_formated)
+from classes.user import User
 
-servers = list()
-for index, input in enumerate(input_list):
-    for user in range(0, input):
-        CustomerManagement
-        servers.append(Server(10))
-        servers.append(Server(10))
-        servers[0].add_user(User(1))
-        servers[0].users[0].update_ttask_users()
-        servers[0].users[0].update_ttask_users()
-print(input_list)
+
+class Challenge:
+    def __init__(self, input_file, ttask, umax):
+        # region import Input
+        input = open(input_file)
+        self.input_list = [
+            int(line_txt.replace('\n', ''))
+            for line_txt in input
+        ]
+        # endregion
+
+        # region Variables
+        self.ttask = ttask
+        self.umax = umax
+        self.index_input = 0
+        self.customer_management = CustomerManagement(self.umax)
+        # endregion
+
+    def run(self):
+        # Run challenge
+        while True:
+            if self.index_input < len(self.input_list):
+                for user in range(0, self.input_list[self.index_input]):
+                    self.customer_management.allocate_user(User(self.ttask))
+                self.index_input += 1
+            elif len(self.customer_management.servers) <= 0:
+                break
+
+            self.customer_management.remove_timeout_users()
+            self.customer_management.optimize_servers()
+            self.customer_management.save_state()
+            self.customer_management.update_ttime()
+
+
+challenge = Challenge('input1.txt', ttask=5, umax=10)
+challenge.run()

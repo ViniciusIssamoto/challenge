@@ -1,21 +1,40 @@
 ﻿Responda as perguntas abaixo sobre Python
 
 1 - Como trocar o valor de duas variáveis em uma única linha de código?
+    var1, var2 = 1,2
 
 2 - O que são "function decorators" e para que servem?
+    Adiciona funcionalidades extras a um objeto.
+    Por exemplo: podemos colocar tipo um log antes e depois de cada função, sem deixar um código poluido.
 
 3 - Quais as principais diferenças entre Python 2 e 3?
+    A função "print" que precisa colocar "()"
+    inteiro dividido por inteiro sempre era inteiro no python, agora ele retorna um float
+    as strings são sempre em unicode
+    o range() retorna um iterador
 
 4 - Python é interpretado ou compilado?
+    Interpreatado
 
 5 - Porque usar virtualenv?
+    Quando se trabalha com vários projetos, é o ideal para não misturar as bibliotecas.
+    As vezes você tem um projeto que funciona na versão 1.1 da biblioteca x, daí você precisa mexer em um outro projeto
+    que a versão da biblioteca é 2.0, então você cria uma virualenv para isolar as dependencias.
 
 6 - Que modulos/funções de rede você usaria para:
 	6.1 - Gerar um ataque com pacotes hackeados
+	se for um DDoS bibliotecas do python como "time", "socket", "random"
+
 	6.2 - Fazer um POST em um servidor HTTP
+	uso o "import requests"
+
 	6.3 - Fazer o Parse de um documento HTML
+    BeautifulSoup
 
 7 - Mencione um framework em Python que permite agendar e disparar funções assincronamente para múltiplos processos.
+    Eu vi que existe o AsyncIO, mas nunca o utilizei.
+    Já cheguei a utilizar a biblioteca "threading" do python, mas não é a mesma coisa.
 
 8 - No Django, que estratégia você usa para diferenciar os "settings" de produção e de desenvolvimento? 
-
+    Eu nunca usei Django, mas pelo que vi é bem parecido com o que utilizo atualmente.
+    Há um json com as configurações de hmg e Prod que são "setados"  de acordo com uma variável de ambiente.
