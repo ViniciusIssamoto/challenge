@@ -13,3 +13,9 @@ class Server:
 
     def remaining_capacity(self):
         return self.umax - len(self.users)
+
+    def update_ttask_users(self):
+        for user in self.users:
+            user.update_ttask()
+            if user.timeout():
+                del user
