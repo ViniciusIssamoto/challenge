@@ -1,0 +1,10 @@
+Clock ticks: 1: 1
+Clock ticks: 2: 2,2
+Clock ticks: 3: 2,2
+Clock ticks: 4: 2,2,1
+Clock ticks: 5: 2,2
+Clock ticks: 6: 2
+Clock ticks: 7: 2
+Clock ticks: 8: 1
+Clock ticks: 9: 1
+Clock ticks: 10: 

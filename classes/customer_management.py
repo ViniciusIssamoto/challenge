@@ -1,4 +1,5 @@
 import logging
+from classes.user import User
 from classes.server import Server
 
 
@@ -9,13 +10,25 @@ class CustomerManagement:
         self.umax = umax
         self.clock_ticks = 1
 
+    @property
+    def servers_running(self) -> int:
+        return len(self.servers)
+
+    @property
+    def total_users_connected(self) -> int:
+        return sum(server.number_of_connected_users for server in self.servers)
+
+    @property
+    def total_capacity(self) -> int:
+        return self.umax * len(self.servers)
+
     def allocate_user(self, new_user):
         """
         Adds the new client into the server. If not enough space, will instantiate a new server
         :param new_user: client to add
         """
         for server in self.servers:
-            if server.remaining_capacity() > 0:
+            if server.remaining_capacity > 0:
                 server.add_user(new_user)
                 return
         else:
@@ -36,12 +49,12 @@ class CustomerManagement:
         Will check all users of all servers to find timeout users
         """
         for server in self.servers:
-            users_list = []
-            for user in server.get_users():
+            users_to_remove = []
+            for user in server.users:
                 if user.timeout():
-                    users_list.append(user)
+                    users_to_remove.append(user)
 
-            for user in users_list:
+            for user in users_to_remove:
                 server.remove_user(user)
 
     def optimize_servers(self):
@@ -49,25 +62,26 @@ class CustomerManagement:
         If empty slots are equal to or greater than the capacity of a server, will optimize
         :return:
         """
-        users_connected = sum(server.get_number_of_connected_users() for server in self.servers)
-        max_capacity = self.umax * len(self.servers)
-        empty_slots = max_capacity - users_connected
+        empty_slots = self.total_capacity - self.total_users_connected
+        servers_to_empty = int(empty_slots / self.umax)
 
-        if empty_slots >= self.umax:
-            servers_to_empty = int(empty_slots / self.umax)
-            for i in range(0, servers_to_empty):
-                for client in self.servers[0].get_users():
-                    # Find new server to this user
-                    for server in self.servers:
-                        if server.remaining_capacity() > 0 and self.servers[0] != server:
-                            # Puts the user to this server
-                            server.add_user(client)
-                            break
-                # After allocating users, shut down the server 0
-                self.servers.remove(self.servers[0])
+        for i in range(servers_to_empty):
+            while self.servers[0].users:
+
+                for server in self.servers:
+                    if server.remaining_capacity > 0 and self.servers[0] != server:
+                        # Puts the user to this server
+                        server.add_user(self.servers[0].users[0])
+
+                        # Remove user from last server
+                        self.servers[0].remove_user(self.servers[0].users[0])
+                        break
+
+            # After allocating users, shut down the server 0
+            self.servers.remove(self.servers[0])
 
     def get_servers_status(self):
-        return ''.join('{},'.format(server.get_number_of_connected_users()) for server in self.servers)[:-1]
+        return ''.join(f'{server.number_of_connected_users},' for server in self.servers)[:-1]
 
     def save_state(self):
-        logging.info('CTicks: {}: {}'.format(self.clock_ticks, self.get_servers_status()))
+        logging.info(f'Clock ticks: {self.clock_ticks}: {self.get_servers_status()}')
