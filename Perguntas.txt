@@ -16,8 +16,7 @@ São instruções que podem ser executadas antes e/ou depois da função chamada
 Interpretado
 
 5 - Porque usar virtualenv?
-Você consegue utilizar versões diferentes de bibliotecas para cada repositório.
-Caso não use, você poderá sobrescrever as bibliotecas que já funcionam no seu projeto, acarretando em algum tipo de conflito e nao funcionamento
+Quando se trabalha com vários projetos, é o ideal para não misturar as bibliotecas. As vezes você tem um projeto que funciona na versão 1.1 da biblioteca x, daí você precisa mexer em um outro projeto que a versão da biblioteca é 2.0, então você cria uma virualenv para isolar as dependencias.
 
 6 - Que modulos/funções de rede você usaria para:
 	6.1 - Gerar um ataque com pacotes hackeados
@@ -27,10 +26,11 @@ Caso não use, você poderá sobrescrever as bibliotecas que já funcionam no se
 	requests
 
 	6.3 - Fazer o Parse de um documento HTML
-	lxml porque dá para procurar por xpath
+	O BeautifulSoup ou lxml porque dá para procurar por xpath
 
 7 - Mencione um framework em Python que permite agendar e disparar funções assincronamente para múltiplos processos.
-Celery
+O AsyncIO ou o Celery
 
 8 - No Django, que estratégia você usa para diferenciar os "settings" de produção e de desenvolvimento? 
-Com uma variável de ambiente na maquina de produção e a validação de um token.
+Com uma variável de ambiente na maquina de produção e a validação de um token. 
+Se a variavel de ambiente e o token são validados, o código executará uma determinada configuração.
