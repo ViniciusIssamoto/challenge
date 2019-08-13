@@ -1,0 +1,184 @@
+Clock ticks: 1: 
+Clock ticks: 2: 
+Clock ticks: 3: 
+Clock ticks: 4: 
+Clock ticks: 5: 
+Clock ticks: 6: 
+Clock ticks: 7: 
+Clock ticks: 8: 
+Clock ticks: 9: 
+Clock ticks: 10: 
+Clock ticks: 11: 
+Clock ticks: 12: 
+Clock ticks: 13: 1
+Clock ticks: 14: 1
+Clock ticks: 15: 1
+Clock ticks: 16: 2
+Clock ticks: 17: 2
+Clock ticks: 18: 2
+Clock ticks: 19: 2
+Clock ticks: 20: 2
+Clock ticks: 21: 2
+Clock ticks: 22: 2
+Clock ticks: 23: 1
+Clock ticks: 24: 2
+Clock ticks: 25: 2
+Clock ticks: 26: 3
+Clock ticks: 27: 3
+Clock ticks: 28: 4
+Clock ticks: 29: 5
+Clock ticks: 30: 5
+Clock ticks: 31: 3
+Clock ticks: 32: 4
+Clock ticks: 33: 4
+Clock ticks: 34: 4
+Clock ticks: 35: 5
+Clock ticks: 36: 7
+Clock ticks: 37: 7
+Clock ticks: 38: 6
+Clock ticks: 39: 5
+Clock ticks: 40: 4
+Clock ticks: 41: 2
+Clock ticks: 42: 4
+Clock ticks: 43: 4
+Clock ticks: 44: 4
+Clock ticks: 45: 10
+Clock ticks: 46: 10,2
+Clock ticks: 47: 7,4
+Clock ticks: 48: 10,7
+Clock ticks: 49: 9,9
+Clock ticks: 50: 4,10
+Clock ticks: 51: 5,8
+Clock ticks: 52: 8,6
+Clock ticks: 53: 7,6
+Clock ticks: 54: 9,4
+Clock ticks: 55: 9,5
+Clock ticks: 56: 9,5
+Clock ticks: 57: 7,10
+Clock ticks: 58: 5,7
+Clock ticks: 59: 6,7
+Clock ticks: 60: 8,5
+Clock ticks: 61: 9,5
+Clock ticks: 62: 10
+Clock ticks: 63: 10,8
+Clock ticks: 64: 10,9
+Clock ticks: 65: 10,10
+Clock ticks: 66: 8,10,6
+Clock ticks: 67: 8,10,6
+Clock ticks: 68: 7,5,9
+Clock ticks: 69: 8,4,9
+Clock ticks: 70: 9,3,9
+Clock ticks: 71: 10,9
+Clock ticks: 72: 8,10,3
+Clock ticks: 73: 8,7,6
+Clock ticks: 74: 10,9
+Clock ticks: 75: 6,10,6
+Clock ticks: 76: 10,9
+Clock ticks: 77: 7,9,7
+Clock ticks: 78: 6,9,9
+Clock ticks: 79: 8,10,10
+Clock ticks: 80: 10,10,5
+Clock ticks: 81: 9,10,8
+Clock ticks: 82: 10,10
+Clock ticks: 83: 10,6
+Clock ticks: 84: 8,4
+Clock ticks: 85: 6,8
+Clock ticks: 86: 7,9
+Clock ticks: 87: 9,10,2
+Clock ticks: 88: 10,8,6
+Clock ticks: 89: 10,8,9
+Clock ticks: 90: 8,6,9
+Clock ticks: 91: 6,7,9
+Clock ticks: 92: 7,9,8
+Clock ticks: 93: 9,10,4
+Clock ticks: 94: 10,8,7
+Clock ticks: 95: 10,8,10,7
+Clock ticks: 96: 10,10,10,7
+Clock ticks: 97: 10,10,10,4
+Clock ticks: 98: 10,10,10,8
+Clock ticks: 99: 10,10,10,4
+Clock ticks: 100: 10,8,8
+Clock ticks: 101: 8,9,7
+Clock ticks: 102: 10,10,7
+Clock ticks: 103: 10,10
+Clock ticks: 104: 10,10
+Clock ticks: 105: 10,10
+Clock ticks: 106: 8,8,8
+Clock ticks: 107: 10,8
+Clock ticks: 108: 9,10,4
+Clock ticks: 109: 7,10,6
+Clock ticks: 110: 10,10,7
+Clock ticks: 111: 10,9
+Clock ticks: 112: 10,10
+Clock ticks: 113: 10,5
+Clock ticks: 114: 10,8
+Clock ticks: 115: 10,4
+Clock ticks: 116: 10,7
+Clock ticks: 117: 7,8
+Clock ticks: 118: 9,9
+Clock ticks: 119: 10,8
+Clock ticks: 120: 6,10
+Clock ticks: 121: 7,10
+Clock ticks: 122: 9,10,2
+Clock ticks: 123: 10,8
+Clock ticks: 124: 10,5
+Clock ticks: 125: 10,6
+Clock ticks: 126: 10,9
+Clock ticks: 127: 8,7
+Clock ticks: 128: 10,6
+Clock ticks: 129: 9,6
+Clock ticks: 130: 7,7
+Clock ticks: 131: 10
+Clock ticks: 132: 9,3
+Clock ticks: 133: 8,5
+Clock ticks: 134: 8,5
+Clock ticks: 135: 8,5
+Clock ticks: 136: 6,5
+Clock ticks: 137: 9
+Clock ticks: 138: 7
+Clock ticks: 139: 6
+Clock ticks: 140: 6
+Clock ticks: 141: 6
+Clock ticks: 142: 6
+Clock ticks: 143: 5
+Clock ticks: 144: 4
+Clock ticks: 145: 3
+Clock ticks: 146: 4
+Clock ticks: 147: 4
+Clock ticks: 148: 4
+Clock ticks: 149: 4
+Clock ticks: 150: 4
+Clock ticks: 151: 3
+Clock ticks: 152: 3
+Clock ticks: 153: 3
+Clock ticks: 154: 5
+Clock ticks: 155: 5
+Clock ticks: 156: 4
+Clock ticks: 157: 4
+Clock ticks: 158: 5
+Clock ticks: 159: 3
+Clock ticks: 160: 2
+Clock ticks: 161: 4
+Clock ticks: 162: 3
+Clock ticks: 163: 3
+Clock ticks: 164: 3
+Clock ticks: 165: 3
+Clock ticks: 166: 1
+Clock ticks: 167: 1
+Clock ticks: 168: 
+Clock ticks: 169: 
+Clock ticks: 170: 
+Clock ticks: 171: 
+Clock ticks: 172: 
+Clock ticks: 173: 
+Clock ticks: 174: 
+Clock ticks: 175: 
+Clock ticks: 176: 
+Clock ticks: 177: 
+Clock ticks: 178: 
+Clock ticks: 179: 1
+Clock ticks: 180: 1
+Clock ticks: 181: 1
+Clock ticks: 182: 1
+Clock ticks: 183: 1
+Clock ticks: 184: 
