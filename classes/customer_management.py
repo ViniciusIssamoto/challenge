@@ -49,12 +49,12 @@ class CustomerManagement:
         Will check all users of all servers to find timeout users
         """
         for server in self.servers:
-            users_list = []
+            users_to_remove = []
             for user in server.users:
                 if user.timeout():
-                    users_list.append(user)
+                    users_to_remove.append(user)
 
-            for user in users_list:
+            for user in users_to_remove:
                 server.remove_user(user)
 
     def optimize_servers(self):
@@ -65,21 +65,23 @@ class CustomerManagement:
         empty_slots = self.total_capacity - self.total_users_connected
         servers_to_empty = int(empty_slots / self.umax)
 
-        if servers_to_empty > 0:
-            for i in range(servers_to_empty):
-                for client in self.servers[0].users:
+        for i in range(servers_to_empty):
+            while self.servers[0].users:
 
-                    # Find new server to this user
-                    for server in self.servers:
-                        if server.remaining_capacity > 0 and self.servers[0] != server:
-                            # Puts the user to this server
-                            server.add_user(client)
-                            break
-                # After allocating users, shut down the server 0
-                self.servers.remove(self.servers[0])
+                for server in self.servers:
+                    if server.remaining_capacity > 0 and self.servers[0] != server:
+                        # Puts the user to this server
+                        server.add_user(self.servers[0].users[0])
+
+                        # Remove user from last server
+                        self.servers[0].remove_user(self.servers[0].users[0])
+                        break
+
+            # After allocating users, shut down the server 0
+            self.servers.remove(self.servers[0])
 
     def get_servers_status(self):
-        return ''.join('{},'.format(server.number_of_connected_users) for server in self.servers)[:-1]
+        return ''.join(f'{server.number_of_connected_users},' for server in self.servers)[:-1]
 
     def save_state(self):
-        logging.info('CTicks: {}: {}'.format(self.clock_ticks, self.get_servers_status()))
+        logging.info(f'Clock ticks: {self.clock_ticks}: {self.get_servers_status()}')

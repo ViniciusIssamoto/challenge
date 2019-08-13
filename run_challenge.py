@@ -29,9 +29,9 @@ class Challenge:
         file_iterator = self.file_to_iter(file)
 
         for i in self.clock_ticks_iter(file_iterator):
-            self.run_next_clock_tick(i)
+            self.next_clock_tick(i)
 
-    def run_next_clock_tick(self, users_clock_ticks):
+    def next_clock_tick(self, users_clock_ticks):
         for user in range(users_clock_ticks):
             self.customer_management.allocate_user(User(self.ttask))
 
@@ -42,5 +42,4 @@ class Challenge:
 
 
 challenge = Challenge(ttask=5, umax=10)
-# challenge = Challenge(ttask=4, umax=2)
-challenge.run('input1.txt')
+challenge.run('input1.txt', )
